@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
     public void listKnifes() {
         LiveData<List<Knife>> knifes = mViewModel.getAllKnifes();
 
-        MainActivity2 mThis = this;
+        MainActivity mThis = this;
         knifes.observe(this, new Observer<List<Knife>>() {
             @Override
             public void onChanged(List<Knife> knifes) {
