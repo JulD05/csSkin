@@ -12,7 +12,7 @@ import com.example.knifeskincs.data.models.Knife;
 
 import java.util.List;
 
-public class KnifeViewModel {
+public class KnifeViewModel extends AndroidViewModel {
     private KnifeDao mDao;
     public void setDao(KnifeDao dao) {
         mDao = dao;
