@@ -15,7 +15,7 @@ import com.example.knifeskincs.utils.DatabaseInitializer;
 
 import java.util.List;
 
-public class MainActivity {
+public class MainActivity extends AppCompatActivity
     private KnifeViewModel mViewModel;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
